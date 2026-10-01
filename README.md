@@ -5,6 +5,8 @@ Sistema web interativo para **mapeamento, análise e priorização de capacidade
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-Acessar%20Aplicação-7D3CA1?style=for-the-badge)](https://juliamergulhao.github.io/business-capability-management/)
 [![GitHub](https://img.shields.io/badge/Source%20Code-GitHub-181717?style=for-the-badge&logo=github)](https://github.com/juliamergulhao/business-capability-management)
 
+---
+
 ## 📌 Sobre o Projeto
 
 O **Business Capability Management System** foi desenvolvido como projeto acadêmico da disciplina de **Arquiteturas Empresariais**.
@@ -78,20 +80,32 @@ Essa análise permite identificar quais capacidades apresentam as principais lac
 
 ## 🚀 Iniciativas Propostas
 
-### Plataforma Integrada de Dados
+### 📊 Plataforma Integrada de Dados
+
 Relacionada às capacidades **Gerenciar Dados** e **Analisar Desempenho**, buscando melhorar a qualidade e disponibilidade das informações.
 
-### Jornada Digital do Cliente
+**Indicador:** qualidade e disponibilidade dos dados.  
+**Benefício esperado:** decisões mais consistentes e orientadas por dados.
+
+### 👥 Jornada Digital do Cliente
+
 Relacionada às capacidades **Gerenciar Clientes** e **Atender Clientes**, com foco na integração dos pontos de contato e melhoria da experiência.
 
-### Automação de Operações
-Relacionada às capacidades **Executar Operações** e **Integrar Processos**, buscando reduzir tempo de ciclo, retrabalho e aumentar a padronização.
+**Indicador:** satisfação e tempo de atendimento.  
+**Benefício esperado:** experiência integrada e melhoria do relacionamento com o cliente.
+
+### ⚙️ Automação de Operações
+
+Relacionada às capacidades **Executar Operações** e **Integrar Processos**, buscando automatizar e padronizar fluxos críticos.
+
+**Indicador:** tempo de ciclo e retrabalho.  
+**Benefício esperado:** maior eficiência operacional e padronização dos processos.
 
 ---
 
 ## 🧠 Síntese da Arquitetura
 
-O projeto segue uma lógica de rastreabilidade entre estratégia e geração de valor:
+O projeto segue uma lógica de rastreabilidade entre estratégia, capacidades e geração de valor:
 
 ```text
 Estratégia
@@ -115,18 +129,20 @@ Indicadores e Benefícios
 
 ## 💻 Tecnologias
 
-- HTML5
-- CSS3
-- JavaScript
-- Canvas API
-- LocalStorage
-- GitHub Pages
+<p align="left">
+  <img src="https://img.shields.io/badge/HTML5-HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+  <img src="https://img.shields.io/badge/CSS3-CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+  <img src="https://img.shields.io/badge/JavaScript-JS-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
+  <img src="https://img.shields.io/badge/Canvas-API-5B247A?style=for-the-badge" alt="Canvas API">
+  <img src="https://img.shields.io/badge/LocalStorage-Browser%20Storage-7D3CA1?style=for-the-badge" alt="LocalStorage">
+  <img src="https://img.shields.io/badge/GitHub%20Pages-Deploy-222222?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Pages">
+</p>
 
 A aplicação foi desenvolvida em um único arquivo principal `index.html`, sem necessidade de backend ou banco de dados externo.
 
 ---
 
-## 📁 Estrutura
+## 📁 Estrutura do Projeto
 
 ```text
 business-capability-management/
@@ -134,31 +150,44 @@ business-capability-management/
 └── README.md
 ```
 
+O `index.html` concentra a interface, os estilos e as funcionalidades JavaScript da aplicação.
+
 ---
 
 ## 🌐 Acesse o Projeto
 
 ### 🔗 Live Demo
 
-https://juliamergulhao.github.io/business-capability-management/
+[![Live Demo](https://img.shields.io/badge/Acessar%20Aplicação-Live%20Demo-7D3CA1?style=for-the-badge)](https://juliamergulhao.github.io/business-capability-management/)
 
 ### 💻 Código-fonte
 
-https://github.com/juliamergulhao/business-capability-management
+[![GitHub](https://img.shields.io/badge/Acessar%20Repositório-GitHub-181717?style=for-the-badge&logo=github)](https://github.com/juliamergulhao/business-capability-management)
 
 ---
 
 ## 📚 Referências
 
-O projeto foi desenvolvido com base no conteúdo acadêmico da disciplina de **Arquiteturas Empresariais**, especialmente os conceitos relacionados a estratégia, capacidades empresariais, cadeia de valor, maturidade e priorização.
+O projeto foi desenvolvido com base no conteúdo acadêmico da disciplina de **Arquiteturas Empresariais**, especialmente nos conceitos relacionados a estratégia, capacidades empresariais, cadeia de valor, maturidade e priorização.
 
-Também foram utilizados materiais de referência do **Business Architecture Guild**, relacionados a Business Architecture, Business Capabilities e Value Streams.
+### Material Acadêmico
 
-- Business Architecture Guild: https://www.businessarchitectureguild.org/
-- BIZBOK® Guide — Business Architecture Body of Knowledge
-- Business Architecture Metamodel Guide
+**BEJARANO, João Batista Mattos.**  
+*Arquiteturas Empresariais — Aula 08: Estratégia, capacidades e cadeia de valor*. Universidade Anhembi Morumbi, 2026.
 
-As informações específicas de capacidades, níveis de maturidade, owners, indicadores e iniciativas apresentadas no sistema constituem uma **modelagem acadêmica desenvolvida para o projeto**.
+### Business Architecture Guild
+
+Foram utilizados materiais complementares relacionados a **Business Architecture, Business Capabilities e Value Streams**.
+
+[![Business Architecture Guild](https://img.shields.io/badge/Business%20Architecture-Guild-5B247A?style=for-the-badge)](https://www.businessarchitectureguild.org/)
+
+**BUSINESS ARCHITECTURE GUILD.**  
+*A Guide to the Business Architecture Body of Knowledge® (BIZBOK® Guide).*
+
+**BUSINESS ARCHITECTURE GUILD.**  
+*The Business Architecture Metamodel Guide.*
+
+Os dados específicos de capacidades, owners, níveis de importância e maturidade, indicadores e iniciativas apresentados na aplicação constituem uma **modelagem acadêmica desenvolvida para o projeto**.
 
 ---
 
